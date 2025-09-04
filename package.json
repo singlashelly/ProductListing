@@ -1,0 +1,61 @@
+{
+  "name": "shoppingcart",
+  "version": "1.0.0",
+  "description": "Product listing app",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/singlashelly/ProductListing.git"
+  },
+  "keywords": [
+    "Assignment"
+  ],
+  "author": "Shelly Singla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/singlashelly/ProductListing/issues"
+  },
+  "homepage": "https://github.com/singlashelly/ProductListing#readme",
+  "dependencies": {
+    "@babel/preset-react": "^7.27.1",
+    "@testing-library/jest-dom": "^6.8.0",
+    "lucide-react": "^0.542.0",
+    "parcel": "^2.15.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-https-redirect": "^1.1.0",
+    "react-redux": "^9.2.0",
+    "react-router-dom": "^6.30.1",
+    "redux": "^5.0.1",
+    "redux-thunk": "^3.1.0"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 2 chrome version",
+      "last 2 firefox version",
+      "last 2 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/core": "^7.28.3",
+    "@babel/preset-env": "^7.28.3",
+    "@tailwindcss/postcss": "^4.1.12",
+    "@tailwindcss/postcss7-compat": "^2.2.17",
+    "@testing-library/react": "^16.3.0",
+    "autoprefixer": "^10.4.21",
+    "babel-jest": "^30.1.2",
+    "jest": "^30.1.3",
+    "jest-environment-jsdom": "^30.1.2",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.12"
+  }
+}
